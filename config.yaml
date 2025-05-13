@@ -1,0 +1,14 @@
+PATH:
+  DATASET_DIR: dataset/
+  PKL_PATH: dataset/database.pkl
+INFO:
+  PICTURE_PROMPT: Upload an image to recognize faces
+  WEBCAM_PROMPT: Use webcam to recognize faces in real-time
+CAMERA:
+  INDEX: 0
+  WIDTH: 640
+  HEIGHT: 480
+RECOGNITION:
+  DEFAULT_TOLERANCE: 0.5
+  AUTO_MARK: true
+  SHOW_DISTANCE: true
